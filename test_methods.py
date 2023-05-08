@@ -61,7 +61,7 @@ def test_division():
     num2 = 5
     
     # when we calculate the division
-    output = methods.quotient(num1, num2)
+    output = methods.division(num1, num2)
     
     # then the division should be 0.4
     assert output == 0.4    
